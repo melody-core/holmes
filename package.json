@@ -1,0 +1,22 @@
+{
+  "name": "@melody-core/holmes",
+  "version": "1.0.0",
+  "description": "福尔摩斯！检测您的项目依赖的安全状况！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "bin": {
+    "holmes": "./index.js"
+  },
+  "author": "wxydesign",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^7.2.0",
+    "shelljs": "^0.8.4"
+  }
+}
