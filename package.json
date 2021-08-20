@@ -1,12 +1,20 @@
 {
   "name": "@melody-core/holmes",
-  "version": "1.0.0",
-  "description": "福尔摩斯！检测您的项目依赖的安全状况！",
+  "version": "1.0.1",
+  "description": "🕵️ 福尔摩斯！检测您的项目依赖的安全状况！",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./index.js"
   },
+  "keywords": [
+    "package-check",
+    "@melody-core",
+    "melody-core",
+    "safe-check",
+    "lib-cehck",
+    "holmes"
+  ],
   "bin": {
     "holmes": "./index.js"
   },
@@ -18,5 +26,25 @@
     "co-prompt": "^1.0.0",
     "commander": "^7.2.0",
     "shelljs": "^0.8.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melody-core/holmes.git"
+  },
+  "contributors": [
+    {
+      "name": "wxydesign",
+      "email": "18210711176@163.com",
+      "url": "https://github.com/melodyWxy"
+    },
+    {
+      "name": "amjanney",
+      "email": "1547702880@qq.com",
+      "url": "https://github.com/amjanney"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/melody-core/holmes/issues"
+  },
+  "homepage": "https://melody-core.github.io/melody-core/holmes/"
 }
