@@ -1,7 +1,7 @@
 {
   "name": "@melody-core/holmes",
-  "version": "1.0.1",
-  "description": "🕵️ 福尔摩斯！检测您的项目依赖的安全状况！",
+  "version": "1.0.2",
+  "description": "🕵️ 福尔摩斯,检测您的项目依赖的安全状况",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
